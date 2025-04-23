@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharses - Ethiopian Cross-Border Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" href="assets/favicon/favicon.ico">
+</head>
+<body>
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="language-selector">
+                    <select>
+                        <option value="en">English</option>
+                        <option value="am">አማርኛ</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="main-nav container">
+            <div class="logo">
+                <a href="/">
+                    <img src="assets/favicon/favicon.ico" alt="Tharses Logo">
+                </a>
+            </div>
+            
+            <button class="drawer-toggle" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="drawer-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="#product-categories" class="nav-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#electronics">Electronics & Gadgets</a></li>
+                            <li><a href="#fashion">Fashion & Apparel</a></li>
+                            <li><a href="#appliances">Home Appliances</a></li>
+                            <li><a href="#beauty">Beauty & Personal Care</a></li>
+                            <li><a href="#stationery">Stationery</a></li>
+                            <li><a href="#kids">Kids & Toys</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#features" class="nav-link">Why Tharses?</a></li>
+                    <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                
+                <div class="drawer-footer">
+                    <div class="drawer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <div class="drawer-buttons">
+                        <button class="download-btn">Download App</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav-buttons">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="drawer-overlay"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Your Gateway to Quality Chinese Products in Ethiopia</h1>
+                    <p>Shop thousands of products directly from Chinese manufacturers at unbeatable prices. Download our app and start shopping today!</p>
+                    
+                    <div class="hero-categories">
+                        <div class="category">
+                            <img src="assets/icons/features/check.svg" alt="Checkmark">
+                            <span>Easy product search and filtering</span>
+                        </div>
+                        <div class="category">
+                            <img src="assets/icons/features/check.svg" alt="Checkmark">
+                            <span>Order tracking and notifications</span>
+                        </div>
+                        <div class="category">
+                            <img src="assets/icons/features/check.svg" alt="Checkmark">
+                            <span>Secure payment options</span>
+                        </div>
+                    </div>
+
+                    <div class="app-buttons">
+                        <a href="#" class="app-store">
+                            <img src="assets/icons/store/app-store.svg" alt="Download on App Store">
+                        </a>
+                        <a href="#" class="play-store">
+                            <img src="assets/icons/store/play-store.svg" alt="Get it on Google Play">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="app-showcase">
+                    <img src="assets/images/hero/app-preview.jpg" alt="Tharses App Screen" class="app-screen">
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this after the hero section and before the features section -->
+        <section class="product-categories" id="product-categories">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Our Categories</span>
+                    <h2>Shop By Category</h2>
+                    <p>Explore our wide range of quality products</p>
+                </div>
+                
+                <div class="categories-grid">
+                    <div class="category-card" id="electronics">
+                        <img src="assets/images/products/electronics.jpg" alt="Electronics">
+                        <div class="category-content">
+                            <h3>Electronics & Gadgets</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" id="fashion">
+                        <img src="assets/images/products/fashion.jpg" alt="Fashion">
+                        <div class="category-content">
+                            <h3>Fashion & Apparel</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" id="appliances">
+                        <img src="assets/images/products/appliances.jpg" alt="Appliances">
+                        <div class="category-content">
+                            <h3>Home Appliances</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card" id="beauty">
+                        <img src="assets/images/products/beauty.jpg" alt="Beauty">
+                        <div class="category-content">
+                            <h3>Beauty & Personal Care</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="category-card" id="stationery">
+                        <img src="assets/images/products/stationery.jpg" alt="Stationery">
+                        <div class="category-content">
+                            <h3>Stationery</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="category-card" id="kids">
+                        <img src="assets/images/products/kids.jpg" alt="Kids">
+                        <div class="category-content">
+                            <h3>Kids & Toys</h3>
+                            <a href="#" class="category-link">Browse Products <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Why Choose Tharses?</span>
+                    <h2>Everything you need for <br>smart shopping in Ethiopia</h2>
+                    <p>Download our app and join thousands of happy shoppers</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="assets/icons/features/prices.svg" alt="Better Prices">
+                        </div>
+                        <h3>Better Prices</h3>
+                        <p>Direct from Chinese manufacturers at wholesale prices</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="assets/icons/features/products.svg" alt="Huge Selection">
+                        </div>
+                        <h3>Huge Selection</h3>
+                        <p>50,000+ products across multiple categories</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="assets/icons/features/delivery.svg" alt="Fast Delivery">
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Quick delivery to major Ethiopian cities</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <img src="assets/icons/features/payment.svg" alt="Secure Payment">
+                        </div>
+                        <h3>Secure Payment</h3>
+                        <p>Multiple payment options including mobile money</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Change App Download Section to Testimonials -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Customer Stories</span>
+                    <h2>What Our Customers Say</h2>
+                    <p>Join thousands of satisfied shoppers across Ethiopia</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"As a retailer in Addis, Tharses has transformed my business. The wholesale prices and direct shipping from Chinese manufacturers have significantly improved my profit margins."</p>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonials/user1.jpg" alt="Customer">
+                                <div class="author-info">
+                                    <h4>Bethlehem Tadesse</h4>
+                                    <span>Fashion Boutique Owner, Addis Ababa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The order tracking feature is excellent. I can easily monitor my shipments from China to Ethiopia, and the mobile payment integration makes transactions seamless and secure."</p>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonials/user2.jpg" alt="Customer">
+                                <div class="author-info">
+                                    <h4>Samuel Mekonnen</h4>
+                                    <span>Electronics Distributor, Bahir Dar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The product variety is impressive. I source all my shop's inventory through Tharses now. Their quality control and verification process gives me confidence in every purchase."</p>
+                            <div class="testimonial-author">
+                                <img src="assets/images/testimonials/user3.jpg" alt="Customer">
+                                <div class="author-info">
+                                    <h4>Tigist Haile</h4>
+                                    <span>Home Goods Store Owner, Mekelle</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#" class="app-store">
+                        <img src="assets/icons/store/app-store.svg" alt="Download on App Store">
+                    </a>
+                    <a href="#" class="play-store">
+                        <img src="assets/icons/store/play-store.svg" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Add this before closing </body> tag -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <img src="assets/favicon/favicon.ico" alt="Tharses Logo" class="footer-logo">
+                    <p>Your trusted gateway to quality Chinese products in Ethiopia. Shop smarter, shop with Tharses.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#product-categories">Products</a></li>
+                        <li><a href="#features">Why Tharses?</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#electronics">Electronics & Gadgets</a></li>
+                        <li><a href="#fashion">Fashion & Apparel</a></li>
+                        <li><a href="#appliances">Home Appliances</a></li>
+                        <li><a href="#beauty">Beauty & Personal Care</a></li>
+                        <li><a href="#stationery">Stationery</a></li>
+                        <li><a href="#kids">Kids & Toys</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</li>
+                        <li><i class="fas fa-phone"></i> +251 911 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@tharses.com</li>
+                    </ul>
+                    <div class="app-download">
+                        <h4>Download App</h4>
+                        <div class="store-buttons">
+                            <a href="#"><img src="assets/icons/store/app-store.svg" alt="App Store"></a>
+                            <a href="#"><img src="assets/icons/store/play-store.svg" alt="Play Store"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Tharses. All rights reserved.</p>
+                </div>
+                <div class="legal-links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="/shipping">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add this before closing </body> tag -->
+    <script>
+        // Mobile Navigation Toggle
+        const drawerToggle = document.querySelector('.drawer-toggle');
+        const drawerNav = document.querySelector('.drawer-nav');
+        const overlay = document.querySelector('.drawer-overlay');
+
+        drawerToggle.addEventListener('click', () => {
+            drawerNav.classList.toggle('active');
+            overlay.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.main-nav')) {
+                drawerNav.classList.remove('active');
+                overlay.classList.remove('active');
+            }
+        });
+
+        // Resize Handler
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                drawerNav.classList.remove('active');
+                overlay.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html> 
